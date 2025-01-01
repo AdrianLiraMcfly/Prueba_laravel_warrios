@@ -135,7 +135,7 @@ class EstudianteController extends Controller
 
             return redirect()->route('estudiantes.index')->with('success', 'Estudiante actualizado correctamente');
         } else {
-            return r¿edirect()->route('estudiantes.index')->with('error', 'Estudiante no encontrado');
+            return redirect()->route('estudiantes.index')->with('error', 'Estudiante no encontrado');
         }
     }
 
