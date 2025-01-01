@@ -13,7 +13,7 @@ use Illuminate\Validation\Rule;
 class EstudianteController extends Controller
 {
     /**
-     * Display a listing of the resource along with groups.
+     * Display a listing of the resource along with groups. hola
      *
      * @return \Illuminate\Http\Response
      */
